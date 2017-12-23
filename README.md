@@ -1,4 +1,4 @@
-#OpenCV face detection
+# OpenCV face detection
 
 Using OpenCV pre trained data
 
