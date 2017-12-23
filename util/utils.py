@@ -2,7 +2,7 @@ import cv2
 import time
 
 
-class calc_time():
+class CalcTime():
     def __init__(self, ):
         self.reset()
 
@@ -24,6 +24,13 @@ class calc_time():
 
 
 def resize(mat, dst_width=None, dst_height=None):
+    """
+    Resize a image in ratio
+    :param mat:
+    :param dst_width:
+    :param dst_height:
+    :return:
+    """
     if dst_height is None and dst_width is None:
         raise AttributeError('at least one of the dst args (height and/or width) should be specified')
 
